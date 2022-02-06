@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: red;
+    margin: 0;
+    transition: background 0.4s ease-in-out;
+}
+a{
+    color: white;  
+}
+
+.hamburger{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+
+.phone{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.logo i{
+    font-size: 3rem;
+}
+.logo h2{
+    font-weight: normal;
+}
+.logo p{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.carrousel-container{
+    overflow: hidden;
+    position: relative;
+    height: 800vh;
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+.carousel{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(0);
+    transition:  transform 0.4s ease-in-out;
+}
+.slide{
+    width: 100vw;
+    text-align: center;
+}
+.slide img{
+    object-fit: cover;
+    height: 380px;
+    width: 400px;
+}
+.slide h1{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: -2rem;
+}
+.slide a{
+    background-color: black;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+/* Setinha */
+.arrow{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    opacity: 0.8;
+}
+.left-arow {
+    left: 2rem;
+}
+.right-arow {
+    right: 2rem;
+}

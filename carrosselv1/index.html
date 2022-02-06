@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel com seta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" class="hamburger">
+        <i class="fas fa-bars"></i>
+    </a>
+
+    <a href="#" class="phone">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <div class="logo">
+        <i class="fas fa-shoe-prints"></i>
+        <h2>Tênis para corrida</h2>
+        <p>Encontre o tênis certo para você</p>
+    </div>
+    
+    <div class="carrousel-container">
+        <div class="carousel" id="carousel" >
+            <div class="slide" data-bg="cb021c">
+                <img src="./imagens/1.png" alt="shoe-1">
+                <h1>Alta performece</h1>
+                <a href="#">Comprar Agora</a>
+            </div>
+
+            <div class="slide" data-bg="0D1BF4">
+                <img src="./imagens/2.png" alt="shoe-2">
+                <h1>Designer inovador</h1>
+                <a href="#">Comprar Agora</a>
+            </div>
+
+            <div class="slide" data-bg="44CAF9">
+                <img src="./imagens/3.png" alt="shoe-3">
+                <h1>Alta Conforto</h1>
+                <a href="#">Comprar Agora</a>
+            </div>
+
+            <div class="slide" data-bg="3F4346">
+                <img src="./imagens/4.png" alt="shoe-4">
+                <h1>Leve para corridas</h1>
+                <a href="#">Comprar Agora</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="left-arow arrow" id="left" >
+        <i class="fas fa-chevron-left"></i>
+    </button>
+
+    <button class="right-arow arrow" id="right" >
+        <i class="fas fa-chevron-right"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
