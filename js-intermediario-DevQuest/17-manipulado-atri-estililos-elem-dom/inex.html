@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando atributos e estilos DOM</title>
+
+    <!-- Colocando uma classe para altera a fonte, vamos adicionar essa classe no primeiro post usando js -->
+    <style>
+        .fonte-grande {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Manipulando Estilos</h1>
+
+    <!-- Criado dois botões  -->
+    <button onclick="AlterarCorDeFundoPrimeiroPost()">Alterar Cor de Fundo do Primeiro Post</button>
+
+    <br><br>
+
+    <button onclick="AumentarFonteSegundoPost()">Aumentar Fonte</button>
+
+
+    <article class="post">
+        <p><strong>Ricardo Dias</strong>
+            <span>@CaduHD - 10 min
+        </p></span>
+        <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas labore nesciunt
+            doloribus sint enim doloremque vitae porro, incidunt harum eos modi quam! Facere minus veniam debitis nihil
+            inventore vel necessitatibus.</p>
+        <br>
+    </article>
+
+    <article class="post">
+        <p><strong>Ricardo Dias</strong>
+            <span>@CaduHD - 10 min
+        </p></span>
+        <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas labore nesciunt
+            doloribus sint enim doloremque vitae porro, incidunt harum eos modi quam! Facere minus veniam debitis nihil
+            inventore vel necessitatibus.</p>
+
+    </article>
+
+    <!-- Modificado Atributos js -->
+    <button onclick="marcarRadio('F')">Marcar Radio Feminino</button>
+
+    <button onclick="marcarRadio('M')">Marcar Radio Masculino</button>
+
+    <!-- Quando clicar nos botões vai marcar os radio criado, isso no js  -->
+    Feminino <input type="radio" name="genero" id="genero-feminino">
+
+    Masculino <input type="radio" name="genero" id="genero-masculino">
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
