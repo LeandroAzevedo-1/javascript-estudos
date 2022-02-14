@@ -1,6 +1,6 @@
 // No arquivo não precismos escrever o window.alert, escrevemos o alert direto 
 
-// É Aconselhável usar o arquivo , para deixar o html o mais limpo possivel 
+// É Aconselhável usar o arquivo  para deixar o html o mais limpo possivel 
 
 
 

@@ -60,8 +60,8 @@
 */
 // --------------------------------------------------------------------------------------------
 // NOT = Não
-const = 2
-const = 2
+const a = 2
+const b = 2
 console.log(a === b) // Como o not inverte, esse condição e verdadeira mais ele coloca false
 console.log(!(a === b)) // Sinal de negação, Agora ele coloca False 
 // a não e idêntico a ?

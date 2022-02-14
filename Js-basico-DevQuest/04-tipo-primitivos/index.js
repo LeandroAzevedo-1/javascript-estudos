@@ -20,7 +20,7 @@
 
 let usuarioVerificado = false // já está defido com valor - false
 
-// Função  
+// Função tipo primitvo boleana 
 
 if (usuarioVerificado){
     console.log("usuario verficado")}

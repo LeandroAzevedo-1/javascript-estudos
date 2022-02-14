@@ -4,6 +4,6 @@ console.log("Olá Mundo !")
 
 
 
-/*Cometário em bloco */
+/* Cometário em bloco */
 
 // Comentário em linha  
