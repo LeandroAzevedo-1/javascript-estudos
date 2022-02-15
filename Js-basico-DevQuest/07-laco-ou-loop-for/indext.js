@@ -13,8 +13,12 @@
     i++ )          ->incremento
     console.log(i) ->declaração, Vai ser executado uma interação de cada 
 */
-for(let i = 0; i < 5; i++){
-    console.log(i)
+// for(let i = 0; i < 5; i++){
+//     console.log(i)
+// }
+
+for(let tabuada =  1; tabuada <= 10; tabuada++){
+    console.log("A tabuada do 2 é: ", tabuada * 2)
 }
 /*  
     i é uma variável 
