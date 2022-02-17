@@ -10,12 +10,17 @@ console.log(mensagem)
 /* 
 
 Declarando variável dentro do escopo, o colsole.log tem que ser dentro do escopo também para imiprimir o valor da variável 
-- Se colocar o console.log fora do escopo, ela da um erro
 
 
 if(true){
     const mensagem = 'olá'
-    console.log(mensagem) // o escopo fica dentro dela 
+    console.log(mensagem) // o escopo fica dentro dela, essa é a maneira correta 
+}
+
+- Se colocar o console.log fora do escopo, ela da um erro
+
+if(true){
+    const mensagem = 'olá'
 }
 console.log(mensagem) //Esse da um erro de referência, porque não existe.
 
@@ -23,12 +28,12 @@ console.log(mensagem) //Esse da um erro de referência, porque não existe.
 // -----------------------------------------------------------------
 /*
 Escopo de Bloco de código autonomo, usando a variável const e let o console.lo tem que ser dentro do escopo, mas se usar a variável var, pode fazer o console.log fora do escopo que ele imprimi normal
-// Ex 01 variar const, se colocar a let aconte mesma coisa
+// Ex 01 variar const, se colocar a let acontece a mesma coisa
 {
     const mensagem = 'olá'
     console.log(mensagem)
 }
-console.log(mensagem)
+console.log(mensagem)-> Não imprime 
 
 //Ex 2 usando a variável var, imprime tanto fora quanto dentro 
 {
