@@ -1,8 +1,10 @@
 /*
-Podemos passar um função como parâmetro para outra função, chamosos
- isso de  callback
- criamos uma função anônima 
-*/
+    Higher order functions : Funções que recebem outras funções como parâmetros ou retorna outra função. 
+
+    Podemos passar um função como parâmetro para outra função, chamosos isso de  callback
+    criamos uma função anônima 
+
+    */
 const calcularAnoDeNascimento = function(idade,mesDeNascimento,imprimir){
     const mesAtual = 2 // variável mesAtual recebe mes 2
     let anoDeNascimento = 2021 - idade 
