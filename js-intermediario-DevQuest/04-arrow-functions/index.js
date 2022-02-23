@@ -2,6 +2,7 @@
 /*
         Arrow functions
 
+        
 Esse Exemplo, vamos tirar alguns elementos para 
 criar a arrows functions, é uma função de forma reduzida
 
