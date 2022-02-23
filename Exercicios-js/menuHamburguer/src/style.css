@@ -52,8 +52,8 @@
     
     #navbar {
         display: flex;
-        top: 15%;
-        right: -300%;
+        top: -50%;
+        right: 0%;
         position: absolute;
         height: 300px;
         width: 300px;
@@ -79,7 +79,7 @@
         background-color: rgba(100, 150, 180, 0.1);
     }
     #navbar.menuAtivo{
-        right: 0%;
+        top: 15%;
     } 
 
 }
