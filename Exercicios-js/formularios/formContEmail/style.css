@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: linear-gradient(120deg, #2e2529, rgb(235, 241, 241));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1rem;
+
+}
+h1,h2{
+    font-size: 3rem;
+    color: #ffff;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+p{
+    color: #ffff; 
+}
+.form{
+    width: 100%;
+    max-width: 32rem; /*512px*/
+    font-size: 1.2rem;
+}
+.form label, input, textarea, button{
+    display: block;
+    width: 100%;
+
+}
+.form label{
+    color: #ffff;
+    line-height: 1;
+    margin-bottom: .5rem;
+
+}
+.form input, textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+}
+.form textarea{
+    min-height: 13rem;
+    resize:none;
+}
+.form input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 1px #4dc8ff;
+}
+.form button {
+    padding: 1rem;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(120deg, #000, #cfcfcf, #000);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.form button:hover, button:focus{
+    background-position: right;
+    
+}
