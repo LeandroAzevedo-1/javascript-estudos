@@ -1,9 +1,8 @@
 let frutas = ['Bananas', 'Maçã', 'Uva', 'Laranjas']
 
-frutas.forEach(function(item, array,){
+frutas.forEach(function(item){
     console.log('Frutas: ' + item )
 })
-
 /*
     Variável frutas recebe o array com os nomes das frutas.
     O laço forEach percorre todo o array com a função e imprime o item do array 
