@@ -3,13 +3,13 @@
         Arrow functions
 
         
-Esse Exemplo, vamos tirar alguns elementos para 
-criar a arrows functions, é uma função de forma reduzida
+    Esse Exemplo, vamos tirar alguns elementos para 
+    criar a arrows functions, é uma função de forma reduzida
 
-let resultadoDaSoma = function(numero1, numero2){
-    return numero1 + numero2
-}
-console.log(resultadoDaSoma(12,5))
+    let resultadoDaSoma = function(numero1, numero2){
+        return numero1 + numero2
+    }
+    console.log(resultadoDaSoma(12,5))
 
 */
 // troca; funtions pela =>  essa seta é a arrows  functions

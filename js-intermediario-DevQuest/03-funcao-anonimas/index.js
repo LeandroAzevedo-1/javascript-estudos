@@ -1,13 +1,14 @@
 /*
-Função Anônima: Ela não tem nome e Vamos passar os valores para serem atribuida na variável que foi declarada dentro do escopo 
+    Função Anônima: Ela não tem nome e Vamos passar os valores para serem atribuida na variável que foi declarada dentro do escopo 
 
-Essa  Função que retona a soma de dois valores 
+    Essa  Função que retona a soma de dois valores ela é nomeada
 
-function somar(numero1, numero2){
-    return numero1 + numero2
-}
-let resultadoDaSoma = somar(12, 5)
-console.log(resultadoDaSoma)
+    function somar(numero1, numero2){
+        return numero1 + numero2
+    }
+
+    let resultadoDaSoma = somar(12, 5)
+    console.log(resultadoDaSoma)
 
 */
 // ----------------------------------------------------------------------

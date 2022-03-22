@@ -16,7 +16,7 @@ const calcularAnoDeNascimento = function(idade,mesDeNascimento,imprimir){
     //imprimi 
 }
 
-//Vamos criar outra função anônima somente para imprimir o anoDeNAscimento
+//Criar outra função anônima somente para imprimir o anoDeNAscimento
 let imprimirAnoDeNascimento = anoDeNascimento =>{
     console.log('Seu ano de nascimento é: ' + anoDeNascimento)
 }

@@ -1,7 +1,6 @@
 /* Hoisting -> isamento, comportamento que roda por baixo dos panos 
 
 //Declaração da variável
-
 // -----------------------------------------------------------------
 // 
     var pais   //declaração 
@@ -29,13 +28,15 @@
 */
 
 // ---------------------------------------------------------------------
-/*
-    Hoistng usando a var let
 
+/*    Hoistng usando a var let
+
+    Aqui ela muda o erro, não é possível acessar pais antes da inicialização, da um erro de referência. 
+*/
     console.log(pais)
-    let pais = 'Brasil
-Aqui ela muda o erro, não é possível acessar pais antes da inicialização, da um erro de referência. 
+    let pais = 'Brasil'
 
+/*
     let pais
     console.log(pais)
     pais = 'Brasil'
