@@ -19,11 +19,12 @@ function AlterarCorDeFundoPrimeiroPost() {
 function AumentarFonteSegundoPost(){
     //get para selecionar todos elementos 
     let textPosts = document.getElementsByClassName("texto-post");
-    console.log(textPosts[1].classList)
+    console.log(textPosts[1].classList)//para verificar qual poste colocar
 
     //Vamos adicionar a classe criada no html no head 
     //add para acionar e o nome da classe criada 
-    textPosts[1].classList.add('fonte-grande')
+    textPosts[1].classList.toggle('fonte-grande')
+    //Poderia ser o add, mas usei o toggle porque ele faz a função ADD E REMOVE AO MESMO TEMPO 
 }
 
 // ---------------------------------------------------------------

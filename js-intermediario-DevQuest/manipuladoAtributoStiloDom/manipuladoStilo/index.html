@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulando atributos e estilos DOM</title>
+    <title>Manipulando Estilo DOM</title>
+    <link rel="stylesheet" href="./main.css">
 
-    <!-- Colocando uma classe para altera a fonte, vamos adicionar essa classe no primeiro post usando js -->
-    <style>
-        .fonte-grande {
-            font-size: 30px;
-            font-weight: bold;
-        }
-    </style>
 </head>
 
 <body>
     <h1>Manipulando Estilos</h1>
 
-    <!-- Criado dois botões  -->
+    <!-- 
+        Criado dois botões 
+         Com o metedo onclick alterar com de fundo, ao clicar no botão vamos alterar a cor de fundo do 1 parágrafos, vamos criar uma função no js 
+    -->
     <button onclick="AlterarCorDeFundoPrimeiroPost()">Alterar Cor de Fundo do Primeiro Post</button>
 
     <br><br>
-
+    <!-- 
+        Ao clicar no botão, faz uma ação no segundo parágrafos. Essa ação é aumentar a fonte dessa tag p- a classe foi criada no arquivo css
+    -->
     <button onclick="AumentarFonteSegundoPost()">Aumentar Fonte</button>
 
 
@@ -46,18 +44,7 @@
             inventore vel necessitatibus.</p>
 
     </article>
-
-    <!-- Modificado Atributos js -->
-    <button onclick="marcarRadio('F')">Marcar Radio Feminino</button>
-
-    <button onclick="marcarRadio('M')">Marcar Radio Masculino</button>
-
-    <!-- Quando clicar nos botões vai marcar os radio criado, isso no js  -->
-    Feminino <input type="radio" name="genero" id="genero-feminino">
-
-    Masculino <input type="radio" name="genero" id="genero-masculino">
-
-
+ 
     <script src="./index.js"></script>
 
 </body>
