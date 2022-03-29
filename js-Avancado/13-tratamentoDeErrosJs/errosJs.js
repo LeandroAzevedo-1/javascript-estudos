@@ -47,7 +47,7 @@ async function iniciarProcessoDeFazerCafe(){
         }catch(error){
             console.log(error)
         }finally{
-            console.log('Finalizada o ritual do café, bora trabalahar ')
+            console.log('Finalizada o ritual do café, bora trabalhar ')
         }
 }
 iniciarProcessoDeFazerCafe()
