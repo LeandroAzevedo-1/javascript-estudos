@@ -9,17 +9,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 7px;
 }
+body p{
+    color: #c1c1c1;
+}
+nav ul{
+    display: none;
+    list-style: none;
+    margin-right: 370px;
+    margin-top: 120px;
+    color: #fff;
+    gap: 20px;
+    border: 1px solid #fff;
+    padding: 14px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li:hover{
+    color: #f7226a;
+}
+nav ul li:active{
+    color: orange;
+}
+nav ul.abreEfecha{
+    display: flex;
+}
+/* container do menu hamburguer */
 #toggle{ 
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #37a6ff;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.2s;
+    border-radius: 3px;
 }
 /* Incluindo a classe criada no js, para quando clicar mudar de cor  */
 #toggle.active{
