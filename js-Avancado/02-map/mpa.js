@@ -3,8 +3,10 @@ let pessoas = [
     {nome: 'Ricardo', idade: 33},
     {nome: 'João',    idade: 27}
 ]
-let nomeDasPessoas = pessoas.map(function(pessoas){ //(pessoas ) é o array a ser percorrido
-    return pessoas.nome + " tem " + pessoas.idade + " anos de idade "})
+let nomeDasPessoas = pessoas.map((pessoas) => { //(pessoas ) é o array a ser percorrido
+    return pessoas.nome + " tem " + pessoas.idade + " anos de idade "
+})
+
 console.log(nomeDasPessoas)
 
 

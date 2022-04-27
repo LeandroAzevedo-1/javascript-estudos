@@ -1,4 +1,4 @@
-setInterval(() => {
+setTimeout(() => {
     console.log('Executa esse bloco por último')
 }, 5000);
 

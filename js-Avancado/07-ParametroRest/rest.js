@@ -18,7 +18,8 @@
     Parabéns por ter chego ao módulo de javascript avançado, João
 */
 
-function incentivarQuester(mensagem, ...nomesQuesters){
+function incentivarQuester(mensagem, ...nomesQuesters){7
+    
     nomesQuesters.map(nomeQuester => console.log(`${mensagem} ${nomeQuester}`))
 }
     
