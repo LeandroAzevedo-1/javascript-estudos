@@ -1,9 +1,9 @@
 
-let chaleiraEstaNoFogao = 'teste'
+let chaleiraEstaNoFogao = 'teste' //Usamos o teste para comprovar o throw
 let fogaoEstaLigado = true
 let ferverAgua = (chaleiraEstaNoFogao, fogaoEstaLigado) => {
     return new Promise((resolve, reject )=>{
-        // Validando um erro 
+        // Validando um erro typpeof é o tipo
         if(typeof chaleiraEstaNoFogao != 'boolean') throw "Somente o tipo boleano é aceito"//fazendo uma excessão via código 
 
         if(chaleiraEstaNoFogao && fogaoEstaLigado){ //verdadeiro verdeiro entra no resovle 

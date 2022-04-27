@@ -50,10 +50,15 @@ let lavarXicara = (cafeTomado)=>{
 */
 
 async function iniciarProcessoDeFazerCafe(){
+
     const aguaFervida = await ferverAgua(chaleiraEstaNoFogao, fogaoEstaLigado)
+
     const cafePassado = await passarOCafe(aguaFervida)
+
     const cafeTomado = await tomarCafe(cafePassado)
+
     const xicaraLavada = await lavarXicara(cafeTomado)
+    
     if(xicaraLavada) console.log('Finalizada o ritual do café, bora trabalahar ')
 }
 iniciarProcessoDeFazerCafe()

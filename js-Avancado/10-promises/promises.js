@@ -1,10 +1,13 @@
 /*
-    Promises tem 4 esdado 
+    Promises tem 4 esdadoa
 
-    Pendente, A promises não foi execultada ainda 
-    Realizada,-Resolve/ muda o estado das promes - quando teve sucesso na execulsão
-    Recusada, -Reject/muda o esdado da promese- quando teve alguma falha na execulsão
-    Estabelecida, quando foi realizada ou recusada 
+    * Pendente, A promises não foi execultada ainda 
+
+    * Realizada,-Resolve/ muda o estado das promes - quando teve sucesso na execulsão
+
+    * Recusada, -Reject/muda o esdado da promese- quando teve alguma falha na execulsão
+
+    * Estabelecida, quando foi realizada ou recusada 
 
     Promese é uma class no js  escreve com  a primeira letra maiuscula 
     ela vai receber uma função dentro dela. 
